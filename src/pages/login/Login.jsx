@@ -24,9 +24,9 @@ export const Login = () => {
 
           <form onSubmit={handleSubmit}>
             <span>Username or Email address</span>
-            <input type='text' required />
+            <input type='text' placeholder="Ingrese cualquier usuario, no importa si no esta registrado" required />
             <span>Password * </span>
-            <input type='password' required />
+            <input type='password' placeholder="Ingrese cualquier contraseña, no importa si no esta registrado" required />
             <button className='button'>Log in </button>
           </form>
         </div>
